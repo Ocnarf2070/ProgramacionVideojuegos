@@ -1,0 +1,23 @@
+@relation estadoEntorno
+
+@attribute general {soleado, nublado, lluvioso}
+@attribute temperatura real
+@attribute humedad real
+@attribute vientos {TRUE, FALSE}
+@attribute jugar {si, no}
+
+@data
+soleado,85,85,FALSE,no
+soleado,80,90,TRUE,no
+nublado,83,86,FALSE,si
+lluvioso,70,96,FALSE,si
+lluvioso,68,80,FALSE,si
+lluvioso,65,70,TRUE,no
+nublado,64,65,TRUE,si
+soleado,72,95,FALSE,no
+soleado,69,70,FALSE,si
+lluvioso,75,80,FALSE,si
+soleado,75,70,TRUE,si
+nublado,72,90,TRUE,si
+nublado,81,75,FALSE,si
+lluvioso,71,91,TRUE,no
